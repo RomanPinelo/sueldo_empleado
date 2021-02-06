@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo de un empleado</title>
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+
+  <body>
+   
+    <h1>Sueldo total de un empleado</h1>
+    
+    <form>
+     
+      <div class="datos izquierda">
+        <label for="nombreEmpleado">Nombre del empleado: </label>
+        <input type="text" value="" id="nombreEmpleado">
+      </div>
+      
+      <div class="datos derecha">
+        <label for="horasTrabajadas">Horas trabajadas: </label>
+        <input type="text" value="" id="horasTrabajadas">
+      </div>
+      
+      <div class="datos centro">
+        <label for="pagoHora">Pago por hora: </label>
+        <input type="text" value="" id="pagoHora">
+      </div>
+      
+      <div class="botones">
+        <input type="button" value="Calcular sueldo" id="botonCalcular">
+        <input type="button" value="Borrar datos" id="botonBorrar">
+      </div>
+      
+    </form>
+    <p id="resultado"></p>
+    <script src="calculo.js"></script>
+  </body>
+  
+</html>
