@@ -43,4 +43,4 @@ También está la opción del botón 'Borrar datos', el cual al presionarlo, se 
 
 En el siguiente link puedes ver la página funcionando: 
 
-https://romanpinelo.github.io/
+https://romanpinelo.github.io/sueldo_empleado/
